@@ -142,7 +142,7 @@ this.res.end();
 else if(request.text && botRegexDL.test(request.text)) {
 this.res.writeHead(200);
 //postMessage("http://www.daddyleagues.com/maddenrating?name=&position=all&team="+request.text.substring(5,8));
-postMessage("http://daddyleagues.com/MNL18/team/"+request.text.substring(5,8)+"/depthchart");
+postMessage("http://daddyleagues.com/rml2018/team/"+request.text.substring(5,8)+"/depthchart");
 this.res.end();
 }
 else if(request.text && botRegexOW.test(request.text)) {
@@ -162,7 +162,7 @@ this.res.end();
 }
 else if(request.text && botRegexRules.test(request.text)) {
 this.res.writeHead(200);
-postMessage("https://docs.google.com/document/d/1ysNakmBBmV3h2UaIA04laQMjCK1Mh90eK6VofrtcgEU/edit");
+postMessage("http://www.daddyleagues.com/rml2018/rules");
 this.res.end();
 }
 else if(request.text && botRegexGTA.test(request.text)) {
@@ -172,14 +172,14 @@ this.res.end();
 }
 else if(request.text && botRegexSC.test(request.text)) {
 this.res.writeHead(200);
-postMessage("http://daddyleagues.com/MNL18/team/"+request.text.substring(5,8)+"/schedule");
+postMessage("http://daddyleagues.com/rml2018/team/"+request.text.substring(5,8)+"/schedule");
 this.res.end();
 }
 else if(request.text && botRegexP.test(request.text)) {
 this.res.writeHead(200);
 var req = request.text.substring(5,request.text.length);
 var rep = req.replace(/ /,"+");
-postMessage("http://daddyleagues.com/MNL18/players?name="+rep+"&position=all&team=all");
+postMessage("http://daddyleagues.com/rml2018/players?name="+rep+"&position=all&team=all");
 this.res.end();
 }
 else if(request.text && botRegexTw.test(request.text)) {
@@ -189,7 +189,7 @@ this.res.end();
 }
 else if(request.text && botRegexSb.test(request.text)) {
 this.res.writeHead(200);
-postMessage("http://www.reddit.com/r/maddenall32");
+postMessage("http://www.reddit.com/r/madden");
 this.res.end();
 }
 else if(request.text && botRegexSh.test(request.text)) {
@@ -219,12 +219,12 @@ this.res.end();
 }
 else if(request.text && botRegexMA32.test(request.text)) {
 this.res.writeHead(200);
-postMessage("https://docs.google.com/spreadsheets/d/12hVrn7ShR3An6bP5uBF3gaoTQQgVciC-0RqtWVZ39Ls/edit?usp=sharing");
+postMessage("http://www.daddyleagues.com/rml2018/forum/forum/7115");
 this.res.end();
 }
 else if(request.text && botRegexTrade.test(request.text)) {
 this.res.writeHead(200);
-postMessage("https://docs.google.com/forms/d/e/1FAIpQLSdrbe5iBRaBC7EWoodVm8z6285-dG2EdHXAOMOgz8md8T1jwQ/viewform");
+postMessage("http://www.daddyleagues.com/rml2018/forum/forum/7115");
 this.res.end();
 }
 else if(request.text && botRegexSiege.test(request.text)) {
