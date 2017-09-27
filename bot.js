@@ -152,7 +152,7 @@ this.res.end();
 }
 else if(request.text && botRegexSalt.test(request.text)) {
 this.res.writeHead(200);
-postMessage("https://i.imgur.com/B5BSVqH.png");
+postMessage("http://www.georgeinstitute.org/sites/default/files/styles/featured_top/public/main-images/too-much-salt.jpg?itok=YXBjzy6D");
 this.res.end();
 }
 else if(request.text && botRegexAd.test(request.text)) {
