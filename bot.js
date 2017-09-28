@@ -86,7 +86,7 @@ this.res.end();
 }
 else if(request.text && botRegexLost.test(request.text)) {
 this.res.writeHead(200);
-postMessage("https://media0.giphy.com/media/H9cX8gxKmlFh6/giphy.gif");
+postMessage("https://pbs.twimg.com/media/Bw5lP3mIYAA2tUh.png");
 this.res.end();
 }
 else if(request.text && botRegexIce3.test(request.text)) {
