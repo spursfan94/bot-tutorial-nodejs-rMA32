@@ -56,7 +56,7 @@ this.res.end();
 }
 else if(request.text && botRegexNext.test(request.text)) {
 this.res.writeHead(200);
-postMessage("https://im2.ezgif.com/tmp/ezgif-2-2e5435a57b.gif");
+postMessage("http://www.kappit.com/img/pics/20141206_150346_bgihchb_sm.jpg");
 this.res.end();
 }
 else if(request.text && botRegexCue.test(request.text)) {
@@ -152,7 +152,7 @@ this.res.end();
 }
 else if(request.text && botRegexSalt.test(request.text)) {
 this.res.writeHead(200);
-postMessage("http://www.georgeinstitute.org/sites/default/files/styles/featured_top/public/main-images/too-much-salt.jpg?itok=YXBjzy6D");
+postMessage("http://4.bp.blogspot.com/-2NQAkntiwzE/TW5RAkl9WbI/AAAAAAAAAQ8/G_-PCr0KqXg/s1600/ID_Super_Salty_To_The_Rescue_by_DizziKatz.jpg");
 this.res.end();
 }
 else if(request.text && botRegexAd.test(request.text)) {
