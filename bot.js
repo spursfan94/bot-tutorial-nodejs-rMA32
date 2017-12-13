@@ -152,7 +152,7 @@ this.res.end();
 }
 else if(request.text && botRegexSalt.test(request.text)) {
 this.res.writeHead(200);
-postMessage("http://4.bp.blogspot.com/-2NQAkntiwzE/TW5RAkl9WbI/AAAAAAAAAQ8/G_-PCr0KqXg/s1600/ID_Super_Salty_To_The_Rescue_by_DizziKatz.jpg");
+postMessage("https://i.imgur.com/ZDmrs19.gif");
 this.res.end();
 }
 else if(request.text && botRegexAd.test(request.text)) {
