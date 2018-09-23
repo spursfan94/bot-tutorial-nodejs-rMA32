@@ -5,7 +5,7 @@ function respond() {
 var request = JSON.parse(this.req.chunks[0]),
 botRegex = /^\/cool guy/; botRegexDL = /^\/DDL/i;botRegexSalt = /^\/salt/;botRegexRules = /^\/rules/
 botRegexAd=/^\/advance/;botRegexGTA = /^\/gta/; botRegexSC = /^\/sdl/i; botODB = /(.*\s+)(.*odb)(\s+.*)/i; botDuck = /^\/duck/;
-botRegexP = /^\/PDL/i; botRegexTw = /^\/twitch/i; botRegexSb = /^\/sub/; botRegexSh = /^\/shrug/; botRegexWk = /^\/users/; botRegexCC = /^\/cc/;
+botRegexP = /^\/PDL/i; botRegexTw = /^\/twitch/i; botRegexSb = /^\/spicy/; botRegexSh = /^\/shrug/; botRegexWk = /^\/users/; botRegexCC = /^\/cc/;
 botRegexSiege = /^\/siege/; botRegexOW = /^\/ratings/;
 botRegexSlut = /^\/slut/; botRegexStop = /^\/stop/;
 botRegexProp = /^\/prop/;botRegexKys = /^\/kys/; botRegexSlam = /^\/slam/; botRegexBrye = /^\/brye/;
@@ -189,7 +189,7 @@ this.res.end();
 }
 else if(request.text && botRegexSb.test(request.text)) {
 this.res.writeHead(200);
-postMessage("http://www.reddit.com/r/madden");
+postMessage("https://i.imgur.com/btEhrTJ.gif");
 this.res.end();
 }
 else if(request.text && botRegexSh.test(request.text)) {
